@@ -1,11 +1,11 @@
 Denis Loshkarov
 ============
 
--------------------     ----------------------------
-* Rokossovsky avenue         mail Loshkarov55@gmail.com
-* Minsk                      Telegram @DenisCovID1991
-# Belar*us                    phone-nr 375336030080
--------------------     ----------------------------
+----------------------                       --------------------------------
+|* Rokossovsky avenue|                       |* mail Loshkarov55@gmail.com|
+|* Minsk             |                       |* Telegram @DenisCovID1991  |
+|* Belarus           |                       |* phone-nr 375336030080     |
+----------------------                       ---------------------------------
 
 Education
 ---------
