@@ -50,6 +50,6 @@ Additional Information
 
 * Ability:
 
-     * I'm a fast learner
+     * I'm a fast learne
      * I find a way out of difficult situations
      * I believe in the quote: All the rules are simple in this life - nothing is impossible!
