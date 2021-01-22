@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+#text-title pre {
+  font-weight: 900;
+  word-wrap: break-word;
+  line-height: 1.3em;
+}
+
+h1,
+#text-title pre,
+#text-title textarea {
+  font-weight: 900;
+  font-size: 35px;
+}
+
+p {
+  color: #555;
+}
+
+.gist {
+  width: 100% !important;
+}
+.gist-file .gist-data {
+  max-height: 500px;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 800px;
+  margin: auto;
+  background: #ffffff;
+  padding: 10px 10px 10px 10px;
+}
+
+/* Title of the resume */
+h1 {
+  font-size: 55px;
+  color: #757575;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Titles of categories */
+h2 {
+  color: #397249;
+}
+/* There is a bar just before each category */
+h2:before {
+  content: "";
+  display: inline-block;
+  margin-right: 1%;
+  width: 16%;
+  height: 10px;
+  background-color: #9cb770;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 7px;
+}
+
+/* Blockquotes */
+blockquote {
+  text-align: center;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+hr {
+  color: #a6a6a6;
+}
+
+table {
+  width: 100%;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #999999;
+}
+
+td {
+  align: left;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.list-of-projects li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.list-of-projects li p:last-child {
+  margin-left: 20px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+.portfolio-container img {
+        width: auto;
+        height: 300px;
+}
+.portfolio-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 5px solid cadetblue;
+    border-bottom: 5px solid cadetblue;
+    padding: 5px;
+}
+
+.portfolio-container div  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.portfolio-container div span {
+    font-family: 'Potta One', cursive;
+    margin: 10px;
+}
