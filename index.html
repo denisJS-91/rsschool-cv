@@ -1,142 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
-    <style type="text/css">code{white-space: pre;}</style>
-    <style type="text/css">
-    /*
-   *  * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
-   *   *
-   *    * CSS for making a resume with pandoc. Inspired by moderncv.
-  */
-    /* Whole document */
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      width: 800px;
-      margin: auto;
-      background: #FFFFFF;
-      padding: 10px 10px 10px 10px;
-  }
-  
-  /* Title of the resume */
-  h1 {
-      font-size: 55px;
-      color: #757575;
-      text-align:center;
-      margin-bottom:15px;
-  }
-  
-  /* Titles of categories */
-  h2 {
-      color: #397249;
-  }
-  /* There is a bar just before each category */
-  h2:before {
-      content: "";
-      display: inline-block;
-      margin-right:1%;
-      width: 16%;
-      height: 10px;
-      background-color: #9CB770;
-  }
-  
-  /* Definitions */
-  dt {
-      float: left;
-      clear: left;
-      width: 17%;
-      font-weight: bold;
-  }
-  dd {
-      margin-left: 17%;
-  }
-  p {
-      margin-top:0;
-      margin-bottom:7px;
-  }
-  
-  /* Blockquotes */
-  blockquote {
-      text-align: center
-  }
-  
-  /* Links */
-  a {
-      text-decoration: none;
-  }
-  
-  /* Horizontal separators */
-  hr {
-      color: #A6A6A6;
-  }
-  
-  table {
-      width: 100%;
-      border-top: solid;
-      border-bottom: solid;
-      border-color:#999999;
-  }
-   </style>
-</head>
-<body>
-<h1 id="denis-oshkarov">Denis Loshkarov</h1>
-<table>
-<tbody>
-<tr class="odd">
-<td align="left">Mail: Loshkarov55@gmail.com </td>
-</tr>
-<tr class="even">
-<td align="left"><span class="citation">Telegram: @DenisCovID1991</span></td>
-</tr>
-<tr class="odd">
-<td align="left">phone-nr: 375336030080 </td>
-</tr>
-</tbody>
-</table>
-<h2 id="education">Education</h2>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Denis Loshkarov</h1>
+    <div class="portfolio-container">
+        <div>
+           <span>
+            Mail: Loshkarov55@gmail.com
+           </span>
+           <span>
+            Telegram: @DenisCovID1991
+           </span>  
+           <span>
+            phone-nr: 375336030080
+           </span>
+            
+        </div>
+        <img src ='./assets/avatar.jpg' alt="avatar" />
+    </div>
+    <h2>Education</h2>
     <dl>
-        <dt>2007-2010</dt>
-        <dd><p><strong>Engineer of hydro-pneumatic equipment</strong>;Minsk State Auto-Mechanical College
-            named after academician M.S. Vysotsky</p>
-        </dd>
+      <dt>2007-2010</dt>
+      <dd>
+        <p>
+          <p class="strong">Engineer of hydro-pneumatic equipment</p>Minsk State
+          Auto-Mechanical College named after academician M.S. Vysotsky
+        </p>
+      </dd>
     </dl>
-<h2 id="experience">Experience</h2>
-<p><strong>Your Most Recent Work Experience:</strong></p>
-<ul>
-    <li><p>Equipment repair company manager</p></li>
-    <li><p><a href="http://karttexplus.by">link</a></p></li>
-</ul>
-<p><strong>That Other Job You Had</strong></p>
-<ul>
-    <li><p>Equipment repair company manager</p></li>
-</ul>
-<h2 id="technical-experience">Technical Experience</h2>
-<dl>
-    <dt>My Cool Side Project</dt>
-    <dd><p><strong>-</strong></p>
-    </dd>
-    <dt>Open Source</dt>
-    <dd><p><strong>-</strong></p>
-    </dd>
-    <dt>Programming Languages</dt>
-    <dd><p><strong>-</strong></p>
-    </dd>
-    </dl>
-    <h2 id="extra-section-call-it-whatever-you-want">Extra Section, Call it Whatever You Want</h2>
+    <h2>Experience</h2>
+    <p class="strong">   Your Most Recent Work Experience:</p>
     <ul>
-        <li><p><strong>Languages:</strong></p></li>
-        <ul>
-            <li>English(A1)</li>
-            <li>Russian (native speaker)</li>
-        </ul>
-        <li><p><strong>Ability:</strong></p></li>
-        <ul>
-            <li>I'm a fast learner</li>
-            <li>I find a way out of difficult situations</li>
-            <li>I believe in the quote: All the rules are simple in this life - nothing is impossible!</li>
-        </ul>
+      <li><p>Equipment repair company manager</p></li>
+      <li>
+        <p><a href="http://karttexplus.by">link</a></p>
+      </li>
     </ul>
-</body>
+    <p class="strong">That Other Job You Had </p>
+    <ul>
+      <li><p>System Administrator</p></li>
+    </ul>
+    <h2>Technical Experience</h2>
+
+      <p class="strong">My Cool Side Project  </p>
+      <ul>
+        <li><p>My Cool Side Project</p></li>
+        <li><p>Open Source</p></li>
+        <li><p>Programming Languages</p></li>
+    </ul>
+     
+    <h2>
+      Extra Section, Call it Whatever You Want
+    </h2>
+    <ul>
+      <li>
+        <p class='strong'>Languages:</p>
+      </li>
+      <ul>
+        <li>English(A1)</li>
+        <li>Russian (native speaker)</li>
+      </ul>
+      <li>
+        <p class='strong'>Ability:</p>
+      </li>
+      <ul>
+        <li>I'm a fast learner</li>
+        <li>I find a way out of difficult situations</li>
+        <li>
+          I believe in the quote: All the rules are simple in this life -
+          nothing is impossible!
+        </li>
+      </ul>
+    </ul>
+  </body>
 </html>
