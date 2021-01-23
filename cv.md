@@ -3,7 +3,7 @@ Denis Loshkarov
 -------------------------------------------------------      
 |* mail Loshkarov55@gmail.com|
 |* Telegram @DenisCovID1991  |
-|* phone-nr 375336030080     |
+|* phone-nr 375336030080  |
 -------------------------------------------------------
 
 Education
