@@ -143,7 +143,7 @@ ul {
   align-items: center;
   padding-top: 25px;
   padding-bottom: 25px;
-  /* background-color: #eee; */
+  background-color: #eee; 
 }
 .footer-copyright {
   height: 100%; 
@@ -155,7 +155,7 @@ ul {
   margin-left: 25px;
 }
 
-.footer-container div:nth-child(3n) {
+.footer-container div:last-child {
   margin-right: 25px;
 }
 
@@ -168,12 +168,11 @@ ul {
   transition: 0.2s;
 }
 
-
-.github-logo:hover {
+.github-logo:hover{
   background: url('./assets/github-hover.png');
-   background-position: center;
-   background-size:cover;
-   width: 100px;
-   transition: 0.2s;
-   height: 100px;
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: cover;
+  transition: 0.2s;
 }
