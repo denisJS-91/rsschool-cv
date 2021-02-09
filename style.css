@@ -59,7 +59,13 @@ h2:before {
   height: 10px;
   background-color: #9cb770;
 }
-
+h3 {
+  content: "";
+  display: inline-block;
+  margin-right: 1%;
+  width: 16%;
+  height: 10px;
+}
 p {
   margin-top: 0;
   margin-bottom: 7px;
@@ -127,4 +133,47 @@ ul {
 .portfolio-container div span {
     font-family: 'Potta One', cursive;
     margin: 10px;
+}
+
+.footer-container{
+  text-align: center;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  /* background-color: #eee; */
+}
+.footer-copyright {
+  height: 100%; 
+  text-align: center;
+  color: #777;
+}
+
+.footer-container div:first-child {
+  margin-left: 25px;
+}
+
+.footer-container div:nth-child(3n) {
+  margin-right: 25px;
+}
+
+.github-logo {
+  background: url('./assets/github.png');
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: cover;
+  transition: 0.2s;
+}
+
+
+.github-logo:hover {
+  background: url('./assets/github-hover.png');
+   background-position: center;
+   background-size:cover;
+   width: 100px;
+   transition: 0.2s;
+   height: 100px;
 }
