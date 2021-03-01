@@ -176,3 +176,10 @@ ul {
   background-size: cover;
   transition: 0.2s;
 }
+.rss-logo{
+  background: url(./assets/rs_school_js.svg);
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
