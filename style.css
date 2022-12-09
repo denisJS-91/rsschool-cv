@@ -1,0 +1,23 @@
+html {
+    height: 100%;
+  }
+  body {
+    min-height: 100%;
+  }
+.header{
+    background-color: black; /* Цвет фона слоя */
+    float: left; /* Обтекание по правому краю */
+    width: 30%; /* Ширина слоя */
+    height: 100%;
+    color: white;
+    background-size: 100%;
+}
+.title{
+    background-color: whitesmoke; /* Цвет фона слоя */
+    float: right; /* Обтекание по правому краю */
+    width: 70%; /* Ширина слоя */
+    height: 100%;
+}
+.footer{
+
+}
