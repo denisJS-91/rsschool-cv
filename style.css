@@ -115,9 +115,38 @@ margin: 0%;
 }
 .contact-wrap{
   display: flex;
-  align-items: flex-end;
   flex-direction: column;
 }
 .contact-box{
-  background: linear-gradient(to right, yellow 50%, #292A2F 50%);
+  background: linear-gradient(to right, yellow 10%, #292A2F 10%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.title-cv{
+  display: flex;
+  background-color: yellow;
+  flex-direction: column;
+  padding-left: 10%;
+}
+.title-about{
+  padding-top: 50px;
+  padding-bottom: 5px;
+  display: flex;
+  margin-left: 15%;
+  border-bottom: inset;
+  border-bottom-color: black;
+  border-bottom-width: 4px;
+}
+.title-wraper{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-left: 15%;
+}
+.title-expirience{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
 }
