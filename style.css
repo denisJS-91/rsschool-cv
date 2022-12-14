@@ -127,7 +127,7 @@ html {
   flex-direction: column;
 }
 .contact-box {
-  background: linear-gradient(to right, yellow 5%, #292a2f 10%);
+  background: linear-gradient(to right, yellow 5%, #242424 10%);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
