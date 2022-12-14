@@ -1,0 +1,207 @@
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+body {
+  overflow: auto; /* добавить полосу прокрутки */
+}
+main {
+  min-height: 100%;
+}
+.wrapper {
+  max-width: 1920px;
+  width: 100%;
+}
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+html {
+  height: 100%;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.header {
+  background-color: #242424; /* Цвет фона слоя */
+  float: left; /* Обтекание по правому краю */
+  width: 30%; /* Ширина слоя */
+  color: white;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  background-color: whitesmoke; /* Цвет фона слоя */
+  float: right; /* Обтекание по правому краю */
+  width: 70%; /* Ширина слоя */
+  display: flex;
+  flex-direction: column;
+}
+.avatar {
+  margin: 0%;
+}
+.avatar img {
+  width: 100%;
+}
+.education {
+  padding-top: 50px;
+  padding-bottom: 5px;
+  display: flex;
+  margin-left: 75px;
+  border-bottom: inset;
+  border-bottom-color: yellow;
+  border-bottom-width: 4px;
+}
+.univer {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  padding: 6px;
+}
+.contact-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.contact-box {
+  background: linear-gradient(to right, yellow 5%, #242424 10%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 13px;
+}
+.title-cv {
+  display: flex;
+  background-color: yellow;
+  flex-direction: column;
+  padding-left: 75px;
+  margin-top: 25px;
+}
+.title-about {
+  padding-top: 50px;
+  padding-bottom: 5px;
+  display: flex;
+  margin-left: 100px;
+  border-bottom: inset;
+  border-bottom-color: black;
+  border-bottom-width: 4px;
+}
+.title-wraper {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-left: 120px;
+}
+.title-expirience {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+}
+.title-code {
+  padding-top: 50px;
+  padding-bottom: 5px;
+  display: flex;
+  margin-left: 100px;
+  border-bottom: inset;
+  border-bottom-color: black;
+  border-bottom-width: 4px;
+}
+.title-example {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  justify-content: center;
+  padding: 25px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  background-color: whitesmoke;
+  border-top: outset;
+  border-color: yellow;
+  border-width: 20px;
+}
+.footer a {
+  height: 220px;
+  display: flex;
+  width: 100px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-link {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+}
