@@ -81,11 +81,14 @@ select {
 html {
   height: 100%;
 }
+.container{
+  display: flex;
+  flex-direction: row;
+}
 .header {
   background-color: #242424; /* Цвет фона слоя */
   float: left; /* Обтекание по правому краю */
   width: 30%; /* Ширина слоя */
-  height: 100%;
   color: white;
   background-size: 100%;
   display: flex;
